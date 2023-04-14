@@ -50,7 +50,6 @@ router.delete("/:id", (req, res) =>
  * GET http://localhost:8080/users?age<=30
  * Should return [{"id": 1,"name": "Bob","age": 43},{"id": 3,"name": "Dennis","age": 32}]
  *
- * Note that this should only work with values which are numbers.
  */
 
 router.get("/", (req, res) => {
